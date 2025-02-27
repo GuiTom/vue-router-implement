@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue3响应式原理演示</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Vue3响应式原理演示</h1>
+        <div class="demo-section">
+            <h2>reactive示例</h2>
+            <div id="reactiveDemo">
+                <div id="countDisplay"></div>
+                <div id="messageDisplay"></div>
+                <button id="incrementButton">增加计数</button>
+                <button id="updateMessageButton">更新消息</button>
+            </div>
+        </div>
+        <div class="demo-section">
+            <h2>ref示例</h2>
+            <div id="refDemo">
+                <div id="refCountDisplay"></div>
+                <div id="refMessageDisplay"></div>
+                <button id="refIncrementButton">增加ref计数</button>
+                <button id="refUpdateButton">更新ref消息</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
